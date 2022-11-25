@@ -14,3 +14,17 @@ services:
       - -c
       - |
         yarn dev
+
+  book:
+    build: .
+    container_name: app-book
+    restart: always
+    volumes:
+      - ./:/app
+    ports:
+      - 6006:6006
+    command:
+      - /bin/sh
+      - -c
+      - |
+        yarn storybook
