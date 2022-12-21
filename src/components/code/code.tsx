@@ -1,3 +1,5 @@
+import { CodeContent } from './styles'
+
 export type CodeProps = {
   count: number
   setCount(): void
@@ -5,8 +7,8 @@ export type CodeProps = {
 
 export const Code = ({ count, setCount }: CodeProps) => {
   return (
-    <code className='code' onClick={setCount} aria-label='code'>
+    <CodeContent className='code' onClick={setCount} aria-label='code'>
       count is {count}
-    </code>
+    </CodeContent>
   )
 }
