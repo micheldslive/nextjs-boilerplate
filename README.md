@@ -1,34 +1,123 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  📚 Nextjs Boilerplate
+</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="Boilerplate" src="https://img.shields.io/static/v1?label=nextjs&message=boilerplate&color=success&labelColor=grey">
+  
+  <img alt="Next" src="https://img.shields.io/static/v1?label=stack&message=nextjs&color=success&labelColor=grey">
+  
+  <img alt="Portfolio" src="https://img.shields.io/static/v1?label=portfolio&message=MICODE&color=success&labelColor=grey">
+</p>
 
-First, run the development server:
+
+
+
+## 💻 Sobre
+
+Boilerplate em nextjs com variações em branchs, clique no link a baixo caso queira fazer o download usando processadores CSS:
+
+---
+Versão com [TailwindCss](../../tree/tailwind) <br>
+Versão com [Styled Components](../../tree/styled-components)
+
+---
+
+### 🚀 Tecnologias
+
+O projeto foi desenvolvido com as seguintes tecnologias:
+
+- [NextJS](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [framer-motion](https://www.npmjs.com/package/framer-motion)
+- [Prettier](https://prettier.io/)
+- [Storybook](https://storybook.js.org/)
+- [Eslint](https://eslint.org/)
+- [Husky](https://github.com/typicode/husky)
+
+---
+
+### ▶️ Executando o projeto
+
+Siga os seguintes passos para poder utilizar a aplicação em sua máquina.
+
+1. Clone a aplicação em sua máquina local com os seguintes comandos:
+
+```bash
+git clone https://github.com/micheldslive/nextjs-boilerplate.git
+```
+
+2. Depois, vá até o diretório do seu projeto utilizando o comando
+
+```bash
+cd nextjs-boilerplate
+```
+
+3. Instale as dependências:
+
+```bash
+yarn install
+# ou
+npm install
+```
+
+4. Rode sua aplicação em sua [conexão local](http://localhost:3000)
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## ▶️ Executando o projeto (Docker)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+##### Com o Docker devidamente instalado e o repositório Clonado, Execute o comando abaixo:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+docker compose up
+```
+---
 
-## Learn More
+### 📚 Design System
+ Os principais componentes da aplicação foram documententados. Para acessá-los em sua máquina, rode o seguinte comando:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run storybook
+# ou
+yarn storybook
+```
+---
+### 📚 Testes
+Para realizar os testes rode os seguinte comando
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run test
+# ou
+yarn test
+```
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 💻 Desenvolvedor<br>
 
-## Deploy on Vercel
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/micheldslive">
+        <img src="https://avatars.githubusercontent.com/u/55795597?v=4" width="100" alt="Foto no GitHub"/><br>
+        <sub>
+          <b>Michel Domingos</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🖊️ Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+O projeto é licenciado sobre a "MIT License" - Veja a pagina LICENÇA para mais destalhes.
